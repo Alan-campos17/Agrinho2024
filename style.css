@@ -334,3 +334,15 @@ footer {
 .irrigacao-metodos li {
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
+
+/* Estilização para a seção Localização da Cidade */
+
+#localizacao-cidade {
+    background-color: #f7f7f7; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#localizacao-cidade h2 {
+    color: #333; /* Cor do título da se
