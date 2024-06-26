@@ -85,3 +85,40 @@ footer {
     font-size: 18px; /* Tamanho do ícone do botão */
     margin-left: 10px; /* Espaçamento entre o texto e o ícone */
 }
+
+/* Estilização para a seção de oportunidades */
+
+#oportunidades {
+    background-color: #f7f7f7; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#oportunidades h2 {
+    color: #333; /* Cor do título da seção */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+#oportunidades p {
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+#oportunidades ul {
+    list-style: none; /* Remover estilo de lista */
+    padding: 0; /* Remover preenchimento da lista */
+    margin: 0; /* Remover margem da lista */
+}
+
+#oportunidades li {
+    padding: 10px; /* Preenchimento dos itens da lista */
+    border-bottom: 1px solid #ccc; /* Bordas entre os itens da lista */
+}
+
+#oportunidades li:last-child {
+    border-bottom: none; /* Remover borda do último item da lista */
+}
+
+#oportunidades .btn {
+    margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
+}
