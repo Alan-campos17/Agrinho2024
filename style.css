@@ -122,3 +122,47 @@ footer {
 #oportunidades .btn {
     margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
 }
+
+/* Estilização para a seção do campo */
+
+#campo {
+    background-color: #fff; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#campo h2 {
+    color: #333; /* Cor do título da seção */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+#campo p {
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+.campo-numeros {
+    display: flex; /* Layout flexível para os números */
+    justify-content: space-between; /* Espaçamento entre os números */
+    margin-bottom: 20px; /* Espaçamento entre os números e o botão */
+}
+
+.numero {
+    width: 30%; /* Largura de cada número */
+    text-align: center; /* Alinhar texto ao centro */
+}
+
+.numero h3 {
+    font-size: 24px; /* Tamanho do título do número */
+    font-weight: bold; /* Negrito do título do número */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+.numero p {
+    font-size: 16px; /* Tamanho do texto do número */
+    color: #666; /* Cor do texto do número */
+}
+
+#campo .btn {
+    margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
+}
