@@ -294,3 +294,47 @@ footer {
     font-weight: bold; /* Negrito do título das culturas */
     margin-top: 0; /* Remover margem superior do título */
 }
+
+/* Estilização para a seção Irrigação do Campo */
+
+#irrigacao-campo {
+    background-color: #f7f7f7; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#irrigacao-campo h2 {
+    color: #333; /* Cor do título da seção */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+#irrigacao-campo p {
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+.irrigacao-metodos {
+    display: flex; /* Layout flexível para os métodos de irrigação */
+    flex-wrap: wrap; /* Quebrar linha para os métodos de irrigação */
+    justify-content: space-between; /* Espaçamento entre os métodos de irrigação */
+}
+
+.irrigacao-metodos h3 {
+    font-size: 18px; /* Tamanho do título dos métodos de irrigação */
+    font-weight: bold; /* Negrito do título dos métodos de irrigação */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+.irrigacao-metodos ul {
+    list-style: none; /* Remover estilo de lista */
+    padding: 0; /* Remover preenchimento da lista */
+    margin: 0; /* Remover margem da lista */
+}
+
+.irrigacao-metodos li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+.irrigacao-fontes {
+    display: flex; /* Layout flexível para as fontes de água */
+    flex-wrap
