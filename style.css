@@ -215,3 +215,52 @@ footer {
 #saiba-mais-campo .btn {
     margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
 }
+
+/* Estilização para a seção Localização do Campo */
+
+#localizacao-campo {
+    background-color: #f7f7f7; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#localizacao-campo h2 {
+    color: #333; /* Cor do título da seção */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+#localizacao-campo p {
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+.localizacao-mapa {
+    margin-bottom: 20px; /* Espaçamento entre o mapa e os detalhes */
+}
+
+.localizacao-detalhes {
+    display: flex; /* Layout flexível para os detalhes */
+    flex-wrap: wrap; /* Quebrar linha para os detalhes */
+    justify-content: space-between; /* Espaçamento entre os detalhes */
+}
+
+.localizacao-detalhes h3 {
+    font-size: 18px; /* Tamanho do título dos detalhes */
+    font-weight: bold; /* Negrito do título dos detalhes */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+.localizacao-detalhes p {
+    font-size: 16px; /* Tamanho do texto dos detalhes */
+    color: #666; /* Cor do texto dos detalhes */
+}
+
+.localizacao-detalhes ul {
+    list-style: none; /* Remover estilo de lista */
+    padding: 0; /* Remover preenchimento da lista */
+    margin: 0; /* Remover margem da lista */
+}
+
+.localizacao-detalhes li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
