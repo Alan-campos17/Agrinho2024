@@ -166,3 +166,52 @@ footer {
 #campo .btn {
     margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
 }
+
+/* Estilização para a seção Saiba mais sobre o campo */
+
+#saiba-mais-campo {
+    background-color: #f7f7f7; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#saiba-mais-campo h2 {
+    color: #333; /* Cor do título da seção */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+#saiba-mais-campo p {
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+.campo-detalhes {
+    display: flex; /* Layout flexível para os detalhes */
+    flex-wrap: wrap; /* Quebrar linha para os detalhes */
+    justify-content: space-between; /* Espaçamento entre os detalhes */
+    margin-bottom: 20px; /* Espaçamento entre os detalhes e o botão */
+}
+
+.detalhe {
+    width: 45%; /* Largura de cada detalhe */
+    margin: 20px; /* Espaçamento entre os detalhes */
+    background-color: #fff; /* Cor de fundo do detalhe */
+    padding: 20px; /* Preenchimento do detalhe */
+    border: 1px solid #ddd; /* Bordas do detalhe */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do detalhe */
+}
+
+.detalhe h3 {
+    font-size: 18px; /* Tamanho do título do detalhe */
+    font-weight: bold; /* Negrito do título do detalhe */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+.detalhe p {
+    font-size: 16px; /* Tamanho do texto do detalhe */
+    color: #666; /* Cor do texto do detalhe */
+}
+
+#saiba-mais-campo .btn {
+    margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
+}
