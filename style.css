@@ -59,3 +59,29 @@ footer {
     text-align: center;
     color: #666;
 }
+
+/* Estilização para o botão */
+
+.btn {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Preenchimento do botão */
+    border: none; /* Remover borda do botão */
+    border-radius: 5px; /* Arredondar cantos do botão */
+    cursor: pointer; /* Mudar cursor para ponteiro */
+    transition: background-color 0.3s ease; /* Efeito de transição para o botão */
+}
+
+.btn:hover {
+    background-color: #3e8e41; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.btn span {
+    font-size: 16px; /* Tamanho do texto do botão */
+    font-weight: bold; /* Negrito do texto do botão */
+}
+
+.btn i {
+    font-size: 18px; /* Tamanho do ícone do botão */
+    margin-left: 10px; /* Espaçamento entre o texto e o ícone */
+}
