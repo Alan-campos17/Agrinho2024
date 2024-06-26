@@ -334,7 +334,3 @@ footer {
 .irrigacao-metodos li {
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
-
-.irrigacao-fontes {
-    display: flex; /* Layout flexível para as fontes de água */
-    flex-wrap
