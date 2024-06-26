@@ -294,8 +294,3 @@ footer {
     font-weight: bold; /* Negrito do título das culturas */
     margin-top: 0; /* Remover margem superior do título */
 }
-
-.culturas-lista ul {
-    list-style: none; /* Remover estilo de lista */
-    padding: 0; /* Remover preenchimento da lista */
-    margin: 0
