@@ -264,3 +264,38 @@ footer {
 .localizacao-detalhes li {
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
+
+/* Estilização para a seção Culturas do Campo */
+
+#culturas-campo {
+    background-color: #f7f7f7; /* Cor de fundo da seção */
+    padding: 20px; /* Preenchimento da seção */
+    margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+}
+
+#culturas-campo h2 {
+    color: #333; /* Cor do título da seção */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+#culturas-campo p {
+    margin-bottom: 20px; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+.culturas-lista {
+    display: flex; /* Layout flexível para a lista de culturas */
+    flex-wrap: wrap; /* Quebrar linha para a lista de culturas */
+    justify-content: space-between; /* Espaçamento entre as culturas */
+}
+
+.culturas-lista h3 {
+    font-size: 18px; /* Tamanho do título das culturas */
+    font-weight: bold; /* Negrito do título das culturas */
+    margin-top: 0; /* Remover margem superior do título */
+}
+
+.culturas-lista ul {
+    list-style: none; /* Remover estilo de lista */
+    padding: 0; /* Remover preenchimento da lista */
+    margin: 0
