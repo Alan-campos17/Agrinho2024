@@ -492,3 +492,10 @@ footer {
     font-size: 16px; /* tamanho da fonte */
     margin-bottom: 20px; /* espaçamento entre o texto e o próximo item */
   }
+  .tourism img {
+    width: 50px; /* largura da imagem */
+    height: 50px; /* altura da imagem */
+    object-fit: cover; /* ajusta a imagem para cobrir toda a área */
+    border-radius: 10px; /* arredonda as bordas da imagem */
+    margin: 10px; /* espaçamento entre a imagem e o texto */
+  }
