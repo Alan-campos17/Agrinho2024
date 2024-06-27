@@ -1,0 +1,34 @@
+// script.js
+$(document).ready(function() {
+    // Função para adicionar efeitos de scroll às seções
+    function addScrollEffects() {
+      $(window).scroll(function() {
+        const scrollPosition = $(window).scrollTop();
+        const sections = $('section');
+  
+        sections.each(function() {
+          const sectionTop = $(this).offset().top;
+          const sectionHeight = $(this).height();
+  
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            $(this).addClass('active');
+          } else {
+            $(this).removeClass('active');
+          }
+        });
+      });
+    }
+  
+    // Função para adicionar efeitos de hover aos botões
+    function addHoverEffects() {
+      $('.btn').hover(function() {
+        $(this).addClass('hover');
+      }, function() {
+        $(this).removeClass('hover');
+      });
+    }
+  
+    // Inicializa as funções addScrollEffects() e addHoverEffects()
+    addScrollEffects();
+    addHoverEffects();
+  });
