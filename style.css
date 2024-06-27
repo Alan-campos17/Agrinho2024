@@ -345,4 +345,35 @@ footer {
 }
 
 #localizacao-cidade h2 {
-    color: #333; /* Cor do título da se
+    color: #333;}
+
+    .cidade-galeria {
+        margin: 20px 0;
+      }
+      
+      .cidade-galeria h3 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .galeria {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+      }
+      
+      .galeria img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      @media (max-width: 600px) {
+        .galeria img {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
