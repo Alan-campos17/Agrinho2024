@@ -377,3 +377,11 @@ footer {
           margin-right: 0;
         }
       }
+
+    
+.imagem-centro{
+    height: 200px;
+    width: auto;
+    align-items: center;
+    display: block;
+}
