@@ -462,3 +462,33 @@ footer {
     font-size: 16px;
     margin-bottom: 10px;
   }
+
+  /* Estilização da imagem */
+.tourism img {
+    width: 100%; /* largura da imagem */
+    height: 200px; /* altura da imagem */
+    object-fit: cover; /* ajusta a imagem para cobrir toda a área */
+    border-radius: 10px; /* arredonda as bordas da imagem */
+    margin: 20px 0; /* espaçamento entre a imagem e o texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* adiciona uma sombra à imagem */
+  }
+  
+  /* Estilização do container da imagem */
+  .tourism li {
+    margin: 20px; /* espaçamento entre os itens da lista */
+    width: 30%; /* largura do container da imagem */
+    display: inline-block; /* exibe os containers lado a lado */
+    vertical-align: top; /* alinha os containers verticalmente */
+  }
+  
+  /* Estilização do texto da legenda */
+  .tourism span {
+    font-weight: bold; /* negrito */
+    font-size: 18px; /* tamanho da fonte */
+    margin-bottom: 10px; /* espaçamento entre o texto e a imagem */
+  }
+  
+  .tourism p {
+    font-size: 16px; /* tamanho da fonte */
+    margin-bottom: 20px; /* espaçamento entre o texto e o próximo item */
+  }
