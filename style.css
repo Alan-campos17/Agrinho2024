@@ -192,7 +192,21 @@ footer {
     justify-content: space-between; /* Espaçamento entre os detalhes */
     margin-bottom: 20px; /* Espaçamento entre os detalhes e o botão */
 }
-
+.detalhe {
+    max-width: 45%; /* Maximum width of each detail */
+    margin: 20px; /* Spacing between details */
+    background-color: #fff; /* Background color of detail */
+    padding: 20px; /* Padding of detail */
+    border: 1px solid #ddd; /* Border of detail */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow of detail */
+    overflow: hidden; /* Add this to prevent image from overflowing */
+  }
+  
+  .numero img {
+    width: 100%; /* Make image take full width of parent container */
+    height: auto; /* Maintain image aspect ratio */
+    object-fit: cover; /* Ensure image is fully visible */
+  }
 .detalhe h3 {
     font-size: 18px; /* Tamanho do título do detalhe */
     font-weight: bold; /* Negrito do título do detalhe */
