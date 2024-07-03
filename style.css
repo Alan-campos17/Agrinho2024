@@ -346,6 +346,8 @@ footer {
 /* Estilização para a seção Localização da Cidade */
 #cidade{
     width: 85%; /* largura da seção */ 
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 
