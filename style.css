@@ -91,7 +91,7 @@ footer {
 
 #oportunidades {
     background-color: #f7f7f7; /* Cor de fundo da seção */
-    width: 80%;
+    width: 85%;
     padding: 20px; /* Preenchimento da seção */
     margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
@@ -132,6 +132,7 @@ footer {
     padding: 20px; /* Preenchimento da seção */
     margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+    width: 85%; /* largura da seção */ 
 }
 
 #campo h2 {
