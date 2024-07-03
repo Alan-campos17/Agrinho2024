@@ -193,7 +193,7 @@ footer {
 }
 
 .numero {
-    max-width: 45%; /* Maximum width of each detail */
+    max-width: 60%; /* Maximum width of each detail */
     margin: 20px; /* Spacing between details */
     background-color: #fff; /* Background color of detail */
     padding: 20px; /* Padding of detail */
