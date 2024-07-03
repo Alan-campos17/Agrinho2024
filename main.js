@@ -29,3 +29,19 @@ document.querySelectorAll('.btn').forEach(button => {
     });
     image.style.opacity = 0;
   });
+
+  // Seleciona todos os botões com a classe "btn"
+const buttons = document.querySelectorAll('.btn');
+
+// Adiciona um evento de clique a cada botão
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Animação de clique
+    button.classList.add('animate');
+
+    // Remove a classe de animação após 0.5 segundos
+    setTimeout(() => {
+      button.classList.remove('animate');
+    }, 500);
+  });
+});
