@@ -477,18 +477,4 @@ footer {
     margin: 10px; /* espaçamento entre a imagem e o texto */
   }
 
-  .btn {
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .animate {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    color: #333;
-  }
-  
-  .animate:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  }
+ 
