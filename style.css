@@ -193,7 +193,7 @@ footer {
 }
 
 .detalhe {
-    width: 45%; /* Largura de cada detalhe */
+   max-width: 45% ; /* Largura de cada detalhe */
     margin: 20px; /* Espaçamento entre os detalhes */
     background-color: #fff; /* Cor de fundo do detalhe */
     padding: 20px; /* Preenchimento do detalhe */
