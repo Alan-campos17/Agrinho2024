@@ -191,7 +191,7 @@ footer {
     justify-content: space-between; /* Espaçamento entre os detalhes */
     margin-bottom: 20px; /* Espaçamento entre os detalhes e o botão */
 }
-.numero {
+.detalhe {
     max-width: 45%; /* Maximum width of each detail */
     margin: 20px; /* Spacing between details */
     background-color: #fff; /* Background color of detail */
