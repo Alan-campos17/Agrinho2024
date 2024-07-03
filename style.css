@@ -344,6 +344,11 @@ footer {
 }
 
 /* Estilização para a seção Localização da Cidade */
+#cidade{
+    width: 85%; /* largura da seção */ 
+}
+
+
 
 #localizacao-cidade {
     background-color: #f7f7f7; /* Cor de fundo da seção */
