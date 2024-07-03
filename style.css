@@ -87,10 +87,11 @@ footer {
     margin-left: 10px; /* Espaçamento entre o texto e o ícone */
 }
 
-/* Estilização para a seção de oportunidades */
+/* Estilização para a seção de oportunidades XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 #oportunidades {
     background-color: #f7f7f7; /* Cor de fundo da seção */
+    width: 80%;
     padding: 20px; /* Preenchimento da seção */
     margin-bottom: 20px; /* Espaçamento entre a seção e o elemento seguinte */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da seção */
@@ -124,7 +125,7 @@ footer {
     margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
 }
 
-/* Estilização para a seção do campo */
+/* Estilização para a seção do CAMPO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 #campo {
     background-color: #fff; /* Cor de fundo da seção */
@@ -168,7 +169,7 @@ footer {
     margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
 }
 
-/* Estilização para a seção Saiba mais sobre o campo */
+/* Estilização para a seção Saiba mais sobre o CAMPOOOOOOOOOOOOOOOO */
 
 #saiba-mais-campo {
     background-color: #f7f7f7; /* Cor de fundo da seção */
