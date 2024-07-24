@@ -490,6 +490,10 @@ footer {
     display: block;
 }
 
+.img50{
+    width: 50%;
+}
+
 /* styles.css */
 .stats {
     display: flex;
