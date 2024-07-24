@@ -490,7 +490,7 @@ footer {
     display: block;
 }
 
-.img50{
+.img50{ /* deixa o tamanho da img reduzido em 50%*/
     width: 50%;
 }
 
@@ -579,4 +579,3 @@ footer {
     margin: 10px; /* espaçamento entre a imagem e o texto */
   }
 
-  .
