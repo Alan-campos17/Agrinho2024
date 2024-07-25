@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #118602;
 }
 
 header {
@@ -212,6 +212,7 @@ footer {
 
 #oportunidades .btn {
     margin-top: 20px; /* Espaçamento entre o botão e o elemento anterior */
+
 }
 
 /* Estilização para a seção do CAMPO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
