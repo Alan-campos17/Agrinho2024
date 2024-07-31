@@ -493,6 +493,7 @@ footer {
 
 .img50{ /* deixa o tamanho da img reduzido em 50%*/
     width: 50%;
+    align-items: center;
 }
 
 /* styles.css */
