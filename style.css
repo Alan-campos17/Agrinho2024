@@ -292,6 +292,7 @@ footer {
     border: 1px solid #ddd; /* Border of detail */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow of detail */
     overflow: hidden; /* Add this to prevent image from overflowing */
+    text-align: center;
   }
   
   .numero img {
