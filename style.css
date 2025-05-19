@@ -142,7 +142,7 @@ footer {
   
   .btn:where(:hover, :focus)::after {
     clip-path: polygon(
-      /* Top-left */ calc(100% - var(--border-width))
+      /* Top-left */ calc(100- var(--border-width))
         calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
       calc(100% - var(--border-width)) var(--border-width),
       /* top-right */ calc(100% - var(--border-width)) var(--border-width),
